@@ -9,5 +9,7 @@ install geoip iptables addons on Raspberry pi 4.
 - After finish install and update, insert this line into crontab
 
 
-### update geoip database once a month.
-00 05 01 * *    /your/dir/update_geoip.sh
+### update geoip database once a month. 
+- Insert this line in crontab 
+
+    00 05 01 * *    /your/dir/update_geoip.sh
