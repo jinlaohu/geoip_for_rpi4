@@ -14,7 +14,7 @@ cd /tmp/geoip
 # key down your own license key instead of xxx
 wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=xxx&suffix=zip" -O GeoLite2-Country-CSV.zip
 
-# unzip file to a database directory
+# use this command to unzip that downloaded file to a database directory
 /usr/lib/xtables-addons/xt_geoip_dl
 
 # move to that db dir
