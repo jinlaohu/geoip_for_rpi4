@@ -1,4 +1,4 @@
-# geoip_for_rpi4
+# Geoip_for_rpi4
 install geoip iptables addons on Raspberry pi 4
 install geoip iptables addons on Raspberry pi 4.
 - This's my first repository on Github. 
@@ -9,5 +9,5 @@ install geoip iptables addons on Raspberry pi 4.
 - After finish install and update, insert this line into crontab
 
 
-# update geoip database once a month.
+### update geoip database once a month.
 00 05 01 * *    /your/dir/update_geoip.sh
